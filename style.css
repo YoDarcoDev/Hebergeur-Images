@@ -1,0 +1,81 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #f1f1f1;
+    background-color: crimson;
+    padding: 10px 0;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+
+h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #dfd9d9;
+    height: 70vh;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+
+input {
+    padding-top: 30px;
+    font-size: 16px;
+    outline: none;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    border: 1px solid black;
+}
+
+
+#image {
+    max-width: 350px;
+    display: block;
+    margin: 100px auto 20px;
+    border-radius: 10px;
+}
+
+
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
